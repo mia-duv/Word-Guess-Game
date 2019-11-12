@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Reset link-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- CSS link-->
     <link rel="stylesheet" href="assets/css/style.css">
+    
     <title>Word Guess Game</title>
 </head>
 <body>
-    <script src="assets/javascript/game.js">
-    </script>
-    <h1>Word Guess Game</h1>
-
-    <form id="why">
-        <input type="text" placeholder="Enter a letter..." maxlength="1">
+    <!--Javascript link-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    
+        <header>
+            <h1>Word Guess Game</h1>
+            <br>
+            <h3>Theme: Full Stack Development</h3>
+        </header>
+        <br>
+        <div class="underscore">_ _ _ _ _ _ _ _</div>
+        <div class="rightGuess">Correct!
+            <div id="buttons"></div>
+         <button id="clear">clear</button>
+        </div>
+        <div class="wrongGuess">Wrong!</div>
+        <br>
         
-    </form>
+     
+
 </body>
+ 
 </html>
